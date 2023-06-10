@@ -30,6 +30,7 @@ dependencies {
 	// CLOUD
 	implementation group: 'org.springframework.cloud', name: 'spring-cloud-config-client', version: '4.0.3'
 	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-bootstrap', version: '4.0.3'
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-client', version: '4.0.2'
 }
 
 tasks.named('test') {
